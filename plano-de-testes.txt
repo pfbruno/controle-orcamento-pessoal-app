@@ -1,0 +1,7 @@
+📝 Plano de Testes – Projeto ControleOrcamentoPessoalApp1
+Caso de Teste Funcionalidade	      Entrada	                        Saída Esperada	                   Resultado Real
+CT01	      Validação de receita    Valor 	                        Alerta Informe um valor positivo.  Passou
+CT02	      Cadastro de receita     Valor 1200, Categoria Salário	Registro salvo no banco	           Passou
+CT03	      Validação de despesa    Valor -200	                Alerta Informe um valor positivo.  Passou
+CT04	      Cadastro de despesa     Valor 350, Categoria Alimentação  Registro salvo no banco	           Passou
+CT05	      Cadastro de meta        Valor 500, Mês Maio     	        Registro salvo no banco	           Passou
